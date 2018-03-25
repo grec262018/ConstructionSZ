@@ -8,8 +8,6 @@ $text-color: rgb(19, 113, 185);
 }
 
 body {
-  margin: 0;
-  width: 100%;
   background-color: #E3F2FD;
 }
 
@@ -29,18 +27,27 @@ hr {
         font-family: 'Cinzel Decorative', cursive;
         font-size: 22px;
         color: #fff;
+        @media (max-width: 576px) {
+          font-size: 12px;
+        }
       }
     }
     p {
       font-family: 'Josefin Slab', serif;
       font-size: 22px;
       color: #fff;
+      @media (max-width: 576px) {
+        font-size: 15px;
+      }
     }
   }
   a {
     color: #fff;
     font-size: 30px;
     padding: 5px;
+    @media (max-width: 576px) {
+      padding: 0;
+    }
   }
   a:hover {
     color: $text-color;
@@ -58,6 +65,9 @@ hr {
   p {
     color: $text-color;
     font-size: 30px;
+    text-align: justify;
+    @media (max-width: 576px) {
+    }
   }
 }
 

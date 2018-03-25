@@ -2,8 +2,6 @@
   font-family: 'Montserrat', sans-serif; }
 
 body {
-  margin: 0;
-  width: 100%;
   background-color: #E3F2FD; }
 
 hr {
@@ -18,14 +16,23 @@ hr {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 22px;
     color: #fff; }
+    @media (max-width: 576px) {
+      #app-header .name h3 strong {
+        font-size: 12px; } }
   #app-header .name p {
     font-family: 'Josefin Slab', serif;
     font-size: 22px;
     color: #fff; }
+    @media (max-width: 576px) {
+      #app-header .name p {
+        font-size: 15px; } }
   #app-header a {
     color: #fff;
     font-size: 30px;
     padding: 5px; }
+    @media (max-width: 576px) {
+      #app-header a {
+        padding: 0; } }
   #app-header a:hover {
     color: #1371b9;
     transition: .2s ease .25s; }
@@ -36,7 +43,8 @@ hr {
     color: #1371b9; }
   #app-hero p {
     color: #1371b9;
-    font-size: 30px; }
+    font-size: 30px;
+    text-align: justify; }
 
 #app-about {
   background-color: #E3F2FD; }
