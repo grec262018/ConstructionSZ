@@ -1,0 +1,67 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  margin: 0;
+  width: 100%; }
+
+#app-header {
+  background-color: #42A5F5; }
+  #app-header img {
+    height: 100px; }
+  #app-header .name h3 strong {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+    color: #fff; }
+  #app-header .name p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #fff; }
+  #app-header a {
+    color: #fff;
+    font-size: 30px;
+    padding: 5px; }
+
+#app-hero h1 strong {
+  color: #1371b9; }
+#app-hero p {
+  color: #1371b9;
+  font-size: 30px; }
+
+#app-about {
+  background-color: #42A5F5; }
+  #app-about h1 strong {
+    color: #fff; }
+  #app-about .card img {
+    width: 100%;
+    height: 200px; }
+  #app-about h3 {
+    position: absolute;
+    bottom: 70px;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+  #app-about .barranquilla {
+    left: 50px; }
+  #app-about .cartagena {
+    left: 75px; }
+  #app-about .puerto {
+    left: 22px; }
+  #app-about .santa {
+    left: 60px; }
+
+#app-footer {
+  background-color: #0D47A1; }
+  #app-footer ul.data li {
+    padding: 5px 0; }
+  #app-footer a {
+    color: #fff;
+    font-size: 30px;
+    padding: 5px; }
+  #app-footer input {
+    width: 80%; }
+  #app-footer textarea {
+    width: 80%; }
+  #app-footer button {
+    width: 80%; }
+
+/*# sourceMappingURL=index.css.map */
