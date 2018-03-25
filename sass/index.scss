@@ -10,6 +10,12 @@ $text-color: rgb(19, 113, 185);
 body {
   margin: 0;
   width: 100%;
+  background-color: #E3F2FD;
+}
+
+hr {
+  width: 80%;
+  border-top: 1px solid $text-color;
 }
 
 #app-header {
@@ -21,13 +27,13 @@ body {
     h3 {
       strong {
         font-family: 'Cinzel Decorative', cursive;
-        font-size: 20px;
+        font-size: 22px;
         color: #fff;
       }
     }
     p {
       font-family: 'Josefin Slab', serif;
-      font-size: 20px;
+      font-size: 22px;
       color: #fff;
     }
   }
@@ -36,9 +42,14 @@ body {
     font-size: 30px;
     padding: 5px;
   }
+  a:hover {
+    color: $text-color;
+    transition: .2s ease .25s;
+  }
 }
 
 #app-hero {
+  background-color: #E3F2FD;
   h1 {
    strong {
     color: $text-color;
@@ -51,10 +62,10 @@ body {
 }
 
 #app-about {
-  background-color: $third-color;
+  background-color: #E3F2FD;
   h1 {
     strong {
-     color: #fff;
+     color: $text-color;
     }
   }
 
@@ -86,7 +97,7 @@ body {
 }
 
 #app-footer {
-  background-color: $primary-color;
+  background-color: $third-color;
   ul.data {
     li {
      padding: 5px 0;
@@ -96,6 +107,10 @@ body {
     color: #fff;
     font-size: 30px;
     padding: 5px;
+  }
+  a:hover {
+    color: $text-color;
+    transition: .2s ease .25s;
   }
   input {
     width: 80%;
