@@ -85,5 +85,15 @@
 
   #app-footer .col-2 {
     margin-top: 0 !important; } }
+@media screen and (max-width: 576px) {
+  #app-header .logo {
+    left: -9px; }
+  #app-header h3 {
+    font-size: 25px; }
+  #app-header .social {
+    right: 0px; }
+
+  #app-about .carousel-inner {
+    width: 273px; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -137,3 +137,22 @@ $secondary-color: rgb(0, 114, 185);
     }
   }
 }
+
+@media screen and (max-width: 576px) {
+  #app-header {
+    .logo {
+      left: -9px;
+    }
+    h3 {
+      font-size: 25px;
+    }
+    .social {
+      right: 0px;
+    }
+  }
+  #app-about {
+    .carousel-inner {
+      width: 273px;
+    }
+  }
+}
