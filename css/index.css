@@ -72,7 +72,7 @@
     left: 174px; } }
 @media screen and (max-width: 768px) {
   #app-header .logo {
-    left: -40px; }
+    left: 40px; }
   #app-header .social {
     right: -100px; }
 
