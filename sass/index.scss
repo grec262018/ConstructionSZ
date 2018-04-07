@@ -1,113 +1,85 @@
-$primary-color: #0D47A1;
-$secondary-color: #1976D2;
-$third-color: #42A5F5;
-$text-color: rgb(19, 113, 185);
+$main-color: rgb(16, 73, 106);
+$secondary-color: rgb(0, 114, 185);
 
 * {
-  font-family: 'Montserrat', sans-serif;
-}
-
-body {
-  background-color: #E3F2FD;
-}
-
-hr {
-  width: 80%;
-  border-top: 1px solid $text-color;
+  font-family: 'Montserrat', sans-serif; 
 }
 
 #app-header {
-  background-color: $third-color;
-  img {
-    height: 100px;
-  }
-  .name {
-    h3 {
-      strong {
-        font-family: 'Cinzel Decorative', cursive;
-        font-size: 22px;
-        color: #fff;
-        @media (max-width: 576px) {
-          font-size: 12px;
-        }
-      }
+ .logo {
+   position: absolute;
+   left: 272px;
+   height: 140px;
+ }
+ .social {
+   position: absolute;
+    right: 0;
+    top: 0;
+    a {
+      color: $main-color;
+      font-size: 30px;
+      padding: 5px; 
     }
-    p {
-      font-family: 'Josefin Slab', serif;
-      font-size: 22px;
-      color: #fff;
-      @media (max-width: 576px) {
-        font-size: 15px;
-      }
+    a:hover {
+      color: $secondary-color;
+      transition: .2s ease .25s;
     }
-  }
-  a {
-    color: #fff;
-    font-size: 30px;
-    padding: 5px;
-    @media (max-width: 576px) {
-      padding: 0;
-    }
-  }
-  a:hover {
-    color: $text-color;
-    transition: .2s ease .25s;
   }
 }
 
-#app-hero {
-  background-color: #E3F2FD;
-  h1 {
-   strong {
-    color: $text-color;
-   }
-  }
-  p {
-    color: $text-color;
-    font-size: 30px;
-    text-align: justify;
-    @media (max-width: 576px) {
+#app-banner {
+  background-color: $main-color;
+  li {
+    padding: 0 30px;
+    a {
+      color: white;
     }
+  }
+  li:hover {
+    background-color: #fff;
+    a {
+      color: $main-color;
+    }
+  }
+}
+
+#app-carousel {
+  .carousel-inner {
+    img {
+    height: 600px; 
+    }
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .carousel-indicators li {
+    width: 60px;
+    height: 6px;
   }
 }
 
 #app-about {
-  background-color: #E3F2FD;
   h1 {
-    strong {
-     color: $text-color;
-    }
+    margin-top: 30px;
+    font-size: 3.5rem;
   }
-
-  .card {
+  .carousel-inner {
     img {
-      width: 100%;
-      height: 200px;
+      width: 550px;
+      height: 250px;
     }
-  }
-  h3 {
-    position: absolute;
-    bottom: 70px;
-    color: #fff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-  .barranquilla {
-    left: 50px;
-  }
-  .cartagena {
-    left: 75px;
-    
-  }
-  .puerto {
-    left: 22px;
-  }
-  .santa {
-    left: 60px;
+    h3 {
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
   }
 }
 
 #app-footer {
-  background-color: $third-color;
+  background-color: $main-color;
   ul.data {
     li {
      padding: 5px 0;
@@ -119,7 +91,7 @@ hr {
     padding: 5px;
   }
   a:hover {
-    color: $text-color;
+    color: $secondary-color;
     transition: .2s ease .25s;
   }
   input {
