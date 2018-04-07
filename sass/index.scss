@@ -107,27 +107,27 @@ $secondary-color: rgb(0, 114, 185);
 
 @media screen and (max-width: 1024px) {
   .logo {
-    left: 174px;
+    left: 174px !important;
   }
 }
 
 @media screen and (max-width: 768px) {
   #app-header {
     .logo {
-     left: 40px;
+     left: 40px !important;
     }
     .social {
-      right: -100px;
+      right: -100px !important;
     }
   }
   #app-about {
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.5rem !important;
     }
     .carousel-inner {
-      width: 350px;
+      width: 350px !important;
       img {
-        width: 420px;
+        width: 420px !important;
       }
     }
   }
@@ -141,18 +141,18 @@ $secondary-color: rgb(0, 114, 185);
 @media screen and (max-width: 576px) {
   #app-header {
     .logo {
-      left: -9px;
+      left: -9px !important;
     }
     h3 {
-      font-size: 25px;
+      font-size: 25px !important;
     }
     .social {
-      right: 0px;
+      right: 0px !important;
     }
   }
   #app-about {
     .carousel-inner {
-      width: 273px;
+      width: 273px !important;
     }
   }
 }
