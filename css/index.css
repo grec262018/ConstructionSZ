@@ -67,4 +67,23 @@
   #app-footer button {
     width: 80%; }
 
+@media screen and (max-width: 1024px) {
+  .logo {
+    left: 174px; } }
+@media screen and (max-width: 768px) {
+  #app-header .logo {
+    left: -40px; }
+  #app-header .social {
+    right: -100px; }
+
+  #app-about h1 {
+    font-size: 2.5rem; }
+  #app-about .carousel-inner {
+    width: 350px; }
+    #app-about .carousel-inner img {
+      width: 420px; }
+
+  #app-footer .col-2 {
+    margin-top: 0 !important; } }
+
 /*# sourceMappingURL=index.css.map */

@@ -104,3 +104,36 @@ $secondary-color: rgb(0, 114, 185);
     width: 80%;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    left: 174px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #app-header {
+    .logo {
+     left: -40px;
+    }
+    .social {
+      right: -100px;
+    }
+  }
+  #app-about {
+    h1 {
+      font-size: 2.5rem;
+    }
+    .carousel-inner {
+      width: 350px;
+      img {
+        width: 420px;
+      }
+    }
+  }
+  #app-footer {
+    .col-2 {
+      margin-top: 0 !important;
+    }
+  }
+}
