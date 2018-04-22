@@ -63,6 +63,8 @@ hr {
   background-color: #0B3C5D; }
   #app-footer .footer-left {
     margin-top: 50px; }
+    #app-footer .footer-left ul.list-unstyled li svg {
+      margin-right: 10px; }
     #app-footer .footer-left ul.list-unstyled li a {
       color: #fff; }
     #app-footer .footer-left ul.social a {
