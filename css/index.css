@@ -76,4 +76,21 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px; }
 
+@media screen and (max-width: 576px) {
+  #app-carousel .carousel-inner img {
+    height: 400px; }
+
+  #app-proyectos .conoce {
+    text-align: center; }
+
+  #app-footer .btn {
+    width: 100%; } }
+@media screen and (max-width: 414px) {
+  #app-header .header-left .logo {
+    margin-bottom: 10px; }
+  #app-header .header-right ul .marca {
+    font-size: 20px; }
+  #app-header .header-right ul .razon {
+    font-size: 18px; } }
+
 /*# sourceMappingURL=index.css.map */
