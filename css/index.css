@@ -1,35 +1,79 @@
 * {
-  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+hr {
+  background-color: #0B3C5D; }
 
 #app-social ul {
   margin: 0; }
   #app-social ul a {
-    color: #10496a;
+    color: #0B3C5D;
     font-size: 30px;
     padding: 5px; }
   #app-social ul a:hover {
-    color: #0072b9;
+    color: #328cc1;
     transition: .2s ease .25s; }
 
-#app-header .header-left {
-  padding: 0; }
-  #app-header .header-left img {
-    position: absolute;
-    right: 0; }
+#app-header .logo {
+  height: 100px; }
 #app-header .header-right {
-  padding: 0; }
-
-#app-banner {
-  background-color: #10496a; }
-  #app-banner li {
+  margin-top: 10px; }
+  #app-header .header-right .marca {
+    font-size: 30px; }
+  #app-header .header-right .razon {
+    font-size: 28px; }
+#app-header .navbar {
+  background-color: #0B3C5D;
+  width: 100%; }
+  #app-header .navbar li {
     padding: 0 30px; }
-    #app-banner li a {
-      color: white; }
-  #app-banner li:hover {
-    background-color: #fff; }
-    #app-banner li:hover a {
-      color: #10496a; }
+    #app-header .navbar li a {
+      color: #fff; }
+    #app-header .navbar li .dropdown-item {
+      color: #0B3C5D; }
+
+#app-carousel .carousel-inner img {
+  height: 600px; }
+
+#app-proyectos .title {
+  font-size: 37px;
+  color: #0B3C5D; }
+#app-proyectos .carousel-inner {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  #app-proyectos .carousel-inner .carousel-item img {
+    height: 300px; }
+  #app-proyectos .carousel-inner .carousel-item span {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    left: 20px; }
+
+#app-footer {
+  background-color: #0B3C5D; }
+  #app-footer .footer-left {
+    margin-top: 50px; }
+    #app-footer .footer-left ul.list-unstyled li a {
+      color: #fff; }
+    #app-footer .footer-left ul.social a {
+      color: #fff;
+      font-size: 30px;
+      padding: 5px; }
+    #app-footer .footer-left ul.social a:hover {
+      color: #328cc1;
+      transition: .2s ease .25s; }
+  #app-footer .footer-right {
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=index.css.map */
