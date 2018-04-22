@@ -1,21 +1,25 @@
 * {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0; }
 
-#app-header .logo {
-  position: absolute;
-  left: 272px;
-  height: 140px; }
-#app-header .social {
-  position: absolute;
-  right: 0;
-  top: 0; }
-  #app-header .social a {
+#app-social ul {
+  margin: 0; }
+  #app-social ul a {
     color: #10496a;
     font-size: 30px;
     padding: 5px; }
-  #app-header .social a:hover {
+  #app-social ul a:hover {
     color: #0072b9;
     transition: .2s ease .25s; }
+
+#app-header .header-left {
+  padding: 0; }
+  #app-header .header-left img {
+    position: absolute;
+    right: 0; }
+#app-header .header-right {
+  padding: 0; }
 
 #app-banner {
   background-color: #10496a; }
@@ -27,78 +31,5 @@
     background-color: #fff; }
     #app-banner li:hover a {
       color: #10496a; }
-
-#app-carousel .carousel-inner img {
-  height: 600px; }
-#app-carousel .carousel-control-next-icon, #app-carousel .carousel-control-prev-icon {
-  width: 50px;
-  height: 50px; }
-#app-carousel .carousel-indicators li {
-  width: 60px;
-  height: 6px; }
-
-#app-about h1 {
-  margin-top: 30px;
-  font-size: 3.5rem; }
-#app-about .carousel-inner img {
-  width: 550px;
-  height: 250px; }
-#app-about .carousel-inner h3 {
-  position: absolute;
-  left: 15px;
-  bottom: 0;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
-
-#app-footer {
-  background-color: #10496a; }
-  #app-footer ul.data li {
-    padding: 5px 0; }
-  #app-footer a {
-    color: #fff;
-    font-size: 30px;
-    padding: 5px; }
-  #app-footer a:hover {
-    color: #0072b9;
-    transition: .2s ease .25s; }
-  #app-footer input {
-    width: 80%; }
-  #app-footer textarea {
-    width: 80%; }
-  #app-footer button {
-    width: 80%; }
-
-@media screen and (max-width: 1024px) {
-  .logo {
-    left: 174px !important; } }
-@media screen and (max-width: 768px) {
-  #app-header .logo {
-    display: none !important; }
-  #app-header .social {
-    right: -100px !important; }
-
-  #app-about h1 {
-    font-size: 2.5rem !important; }
-  #app-about .carousel-inner {
-    width: 350px !important; }
-    #app-about .carousel-inner img {
-      width: 420px !important; }
-
-  #app-footer .col-2 {
-    margin-top: 0 !important; } }
-@media screen and (max-width: 576px) {
-  #app-header .logo {
-    left: -9px !important; }
-  #app-header h3 {
-    font-size: 25px !important; }
-  #app-header .social {
-    right: 0px !important; }
-
-  #app-carousel .carousel-inner {
-    height: 400px; }
-
-  #app-about h1 {
-    font-size: 30px !important; }
-  #app-about .carousel-inner {
-    width: 273px !important; } }
 
 /*# sourceMappingURL=index.css.map */

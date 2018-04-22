@@ -2,19 +2,14 @@ $main-color: rgb(16, 73, 106);
 $secondary-color: rgb(0, 114, 185);
 
 * {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#app-header {
- .logo {
-   position: absolute;
-   left: 272px;
-   height: 140px;
- }
- .social {
-   position: absolute;
-    right: 0;
-    top: 0;
+#app-social {
+  ul {
+    margin: 0;
     a {
       color: $main-color;
       font-size: 30px;
@@ -24,6 +19,19 @@ $secondary-color: rgb(0, 114, 185);
       color: $secondary-color;
       transition: .2s ease .25s;
     }
+  }
+}
+
+#app-header {
+  .header-left {
+    padding: 0;
+    img {
+      position: absolute;
+      right: 0;
+    }
+  }
+  .header-right {
+    padding: 0;
   }
 }
 
@@ -43,124 +51,8 @@ $secondary-color: rgb(0, 114, 185);
   }
 }
 
-#app-carousel {
-  .carousel-inner {
-    img {
-    height: 600px; 
-    }
-  }
-  .carousel-control-next-icon, .carousel-control-prev-icon {
-    width: 50px;
-    height: 50px;
-  }
-  .carousel-indicators li {
-    width: 60px;
-    height: 6px;
-  }
-}
-
-#app-about {
-  h1 {
-    margin-top: 30px;
-    font-size: 3.5rem;
-  }
-  .carousel-inner {
-    img {
-      width: 550px;
-      height: 250px;
-    }
-    h3 {
-      position: absolute;
-      left: 15px;
-      bottom: 0;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
-  }
-}
-
-#app-footer {
-  background-color: $main-color;
-  ul.data {
-    li {
-     padding: 5px 0;
-    }
-  }
-  a {
-    color: #fff;
-    font-size: 30px;
-    padding: 5px;
-  }
-  a:hover {
-    color: $secondary-color;
-    transition: .2s ease .25s;
-  }
-  input {
-    width: 80%;
-  }
-  textarea {
-    width: 80%;
-  }
-  button {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .logo {
-    left: 174px !important;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #app-header {
-    .logo {
-     display: none !important;
-    }
-    .social {
-      right: -100px !important;
-    }
-  }
-  #app-about {
-    h1 {
-      font-size: 2.5rem !important;
-    }
-    .carousel-inner {
-      width: 350px !important;
-      img {
-        width: 420px !important;
-      }
-    }
-  }
-  #app-footer {
-    .col-2 {
-      margin-top: 0 !important;
-    }
-  }
-}
-
 @media screen and (max-width: 576px) {
   #app-header {
-    .logo {
-      left: -9px !important;
-    }
-    h3 {
-      font-size: 25px !important;
-    }
-    .social {
-      right: 0px !important;
-    }
-  }
-  #app-carousel {
-    .carousel-inner {
-      height: 400px;
-    }
-  }
-  #app-about {
-    h1 {
-      font-size: 30px !important;
-    }
-    .carousel-inner {
-      width: 273px !important;
-    }
+    
   }
 }
