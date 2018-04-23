@@ -1,0 +1,91 @@
+.navbar-toggler {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border-color: #fff;
+  margin-left: 20px; }
+
+.navbar-toggler-icon {
+  width: 14px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+hr {
+  background-color: #0B3C5D; }
+
+#app-social ul {
+  margin: 0; }
+  #app-social ul a {
+    color: #0B3C5D;
+    font-size: 30px;
+    padding: 5px; }
+  #app-social ul a:hover {
+    color: #328cc1;
+    transition: .2s ease .25s; }
+
+#app-header .logo {
+  height: 100px; }
+#app-header .header-right {
+  margin-top: 10px; }
+  #app-header .header-right .marca {
+    font-size: 30px; }
+  #app-header .header-right .razon {
+    font-size: 28px; }
+#app-header .navbar {
+  background-color: #0B3C5D;
+  width: 100%; }
+  #app-header .navbar li {
+    padding: 0 30px; }
+    #app-header .navbar li a {
+      color: #fff; }
+    #app-header .navbar li .dropdown-item {
+      color: #0B3C5D; }
+
+#app-proyectos .summer-breeze .breeze-img {
+  margin-bottom: 20px; }
+  #app-proyectos .summer-breeze .breeze-img img {
+    height: 200px;
+    width: 280px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); }
+
+#app-footer {
+  background-color: #0B3C5D; }
+  #app-footer .footer-left {
+    margin-top: 50px; }
+    #app-footer .footer-left ul.list-unstyled li svg {
+      margin-right: 10px; }
+    #app-footer .footer-left ul.list-unstyled li a {
+      color: #fff; }
+    #app-footer .footer-left ul.social a {
+      color: #fff;
+      font-size: 30px;
+      padding: 5px; }
+    #app-footer .footer-left ul.social a:hover {
+      color: #328cc1;
+      transition: .2s ease .25s; }
+  #app-footer .footer-right {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    #app-footer .footer-right .btn {
+      background-color: #328cc1;
+      border-color: #328cc1; }
+
+@media screen and (max-width: 576px) {
+  #app-footer .btn {
+    width: 100%; } }
+@media screen and (max-width: 414px) {
+  #app-header .header-left .logo {
+    margin-bottom: 10px; }
+  #app-header .header-right ul .marca {
+    font-size: 20px; }
+  #app-header .header-right ul .razon {
+    font-size: 18px; } }
+
+/*# sourceMappingURL=barranquilla.css.map */

@@ -1,0 +1,144 @@
+$primary-color: #0B3C5D;
+$secondary-color: #328cc1;
+.navbar-toggler {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  border-color: #fff;
+  margin-left: 20px;
+} 
+.navbar-toggler-icon {
+  width: 14px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; 
+}
+
+hr {
+  background-color: $primary-color;
+}
+
+#app-social {
+  ul {
+    margin: 0;
+    a {
+      color: $primary-color;
+      font-size: 30px;
+      padding: 5px; 
+    }
+    a:hover {
+      color: $secondary-color;
+      transition: .2s ease .25s;
+    }
+  }
+}
+
+#app-header {
+  .logo {
+    height: 100px;
+  }
+  .header-right {
+    margin-top: 10px;
+    .marca {
+      font-size: 30px;
+    }
+    .razon {
+      font-size: 28px;
+    }
+  }
+  .navbar {
+    background-color: $primary-color;
+    width: 100%;
+    li {
+      padding: 0 30px;
+      a {
+        color: #fff;
+      }
+      .dropdown-item {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+#app-proyectos {
+  .summer-breeze {
+    .breeze-img {
+      margin-bottom: 20px;
+      img {
+        height: 200px;
+        width: 280px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+      }
+    }
+  }
+}
+#app-footer {
+  background-color: $primary-color;
+  .footer-left {
+    margin-top: 50px;
+    ul.list-unstyled {
+      li {
+        svg {
+          margin-right: 10px;
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+    ul.social {
+      a {
+        color: #fff;
+        font-size: 30px;
+        padding: 5px; 
+      }
+      a:hover {
+        color: $secondary-color;
+        transition: .2s ease .25s;
+      }
+    }
+  }
+  .footer-right {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .btn {
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #app-footer {
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #app-header {
+    .header-left {
+      .logo {
+        margin-bottom: 10px;
+      }
+    }
+    .header-right {
+      ul {
+        .marca {
+          font-size: 20px;
+        }
+        .razon {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
