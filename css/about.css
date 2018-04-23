@@ -20,6 +20,11 @@ html, body {
 hr {
   background-color: #0B3C5D; }
 
+.borde {
+  padding-top: 20px;
+  border-top: 1px solid #0B3C5D;
+  margin-bottom: 20px; }
+
 #app-social ul {
   margin: 0; }
   #app-social ul a {
@@ -48,24 +53,14 @@ hr {
     #app-header .navbar li .dropdown-item {
       color: #0B3C5D; }
 
-#app-carousel .carousel-inner img {
-  height: 600px; }
-
-#app-proyectos .title {
-  font-size: 37px;
-  color: #0B3C5D; }
-#app-proyectos .carousel-inner {
-  margin-top: 30px;
-  margin-bottom: 30px; }
-  #app-proyectos .carousel-inner .carousel-item img {
-    height: 300px; }
-  #app-proyectos .carousel-inner .carousel-item span {
-    position: absolute;
-    top: 0;
-    color: white;
-    font-size: 30px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    left: 20px; }
+#app-about .about {
+  color: #0B3C5D;
+  text-align: center;
+  margin-top: 50px; }
+  #app-about .about .title {
+    font-size: 60px; }
+  #app-about .about p {
+    font-size: 30px; }
 
 #app-footer {
   background-color: #0B3C5D; }
@@ -85,25 +80,5 @@ hr {
   #app-footer .footer-right {
     margin-top: 20px;
     margin-bottom: 20px; }
-    #app-footer .footer-right .btn {
-      background-color: #328cc1;
-      border-color: #328cc1; }
 
-@media screen and (max-width: 576px) {
-  #app-carousel .carousel-inner img {
-    height: 400px; }
-
-  #app-proyectos .conoce {
-    text-align: center; }
-
-  #app-footer .btn {
-    width: 100%; } }
-@media screen and (max-width: 414px) {
-  #app-header .header-left .logo {
-    margin-bottom: 10px; }
-  #app-header .header-right ul .marca {
-    font-size: 20px; }
-  #app-header .header-right ul .razon {
-    font-size: 18px; } }
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=about.css.map */
